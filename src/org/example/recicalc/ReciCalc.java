@@ -6,6 +6,8 @@
 
 package org.example.recicalc;
 
+import org.exapmle.recicalc.ui.ReciCalcMain;
+
 /**
  *
  * @author Preet
@@ -16,7 +18,7 @@ public class ReciCalc {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+       new ReciCalcMain().setVisible(true);
     }
     
 }
